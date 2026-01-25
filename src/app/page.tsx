@@ -4,10 +4,10 @@ import React from 'react'
 const HomePage = () => {
   return (
     <div>
-      HomePage
-      <SignOutButton/>
+      HomePage 
+      <SignOutButton />
     </div>
-  )
+  );
 }
 
 export default HomePage;
