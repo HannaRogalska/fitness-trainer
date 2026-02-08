@@ -7,7 +7,7 @@ import Link from "next/link";
 const HomePage = () => {
   return (
     <div className="flex flex-col min-h-screen text-foreground overflow-hidden">
-      <section className="relative z-10 py-24 flex-grow">
+      <section className="relative z-10 py-24 grow">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative">
             {/* CORNER DECARATION */}
@@ -32,7 +32,7 @@ const HomePage = () => {
               </h1>
 
               {/* SEPERATOR LINE */}
-              <div className="h-px w-full bg-gradient-to-r from-primary via-secondary to-primary opacity-50"></div>
+              <div className="h-px w-full bg-linear-to-r from-primary via-secondary to-primary opacity-50"></div>
 
               <p className="text-xl text-muted-foreground w-2/3">
                 Talk to our AI assistant and get personalized diet plans and
